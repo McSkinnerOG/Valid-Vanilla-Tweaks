@@ -1,0 +1,17 @@
+{
+	"BP/entities/zombie.json": {
+		"data": {}
+	},
+	"BP/entities/chicken_zombie.json": {
+		"data": {}
+	},
+	"BP/entities/cow_zombie.json": {
+		"data": {}
+	},
+	"BP/entities/pig_zombie.json": {
+		"data": {}
+	},
+	"BP/entities/husk.json": {
+		"data": {}
+	}
+}

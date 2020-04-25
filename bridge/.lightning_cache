@@ -1,0 +1,104 @@
+{
+	"entity": {
+		"BP/entities/zombie.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:as_adult",
+				"minecraft:as_baby",
+				"minecraft:start_transforming_d",
+				"minecraft:stop_transforming_d",
+				"minecraft:convert_to_drowned",
+				"minecraft:start_transforming_h",
+				"minecraft:stop_transforming_h",
+				"minecraft:convert_to_husk"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:zombie"
+			],
+			"animation_references": [],
+			"families": [
+				"zombie",
+				"undead",
+				"monster",
+				"mob"
+			]
+		},
+		"BP/entities/chicken_zombie.json": {
+			"events": [
+				"from_egg",
+				"minecraft:entity_spawned"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"vvt:z_chicken"
+			],
+			"animation_references": [],
+			"families": [
+				"undead",
+				"monster",
+				"mob"
+			]
+		},
+		"BP/entities/cow_zombie.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"vvt:cow_zombie"
+			],
+			"animation_references": [],
+			"families": [
+				"monster",
+				"mob",
+				"undead"
+			]
+		},
+		"BP/entities/pig_zombie.json": {
+			"events": [
+				"minecraft:entity_spawned"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"vvt:pig_zombie"
+			],
+			"animation_references": [],
+			"families": [
+				"mob",
+				"zombie",
+				"undead",
+				"monster"
+			]
+		},
+		"BP/entities/husk.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:start_transforming",
+				"minecraft:stop_transforming",
+				"minecraft:convert_to_zombie",
+				"minecraft:start_transforming_skelly",
+				"minecraft:stop_transforming_skelly",
+				"minecraft:convert_to_skelly"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:husk"
+			],
+			"animation_references": [],
+			"families": [
+				"husk",
+				"zombie",
+				"undead",
+				"monster",
+				"mob"
+			]
+		}
+	}
+}
