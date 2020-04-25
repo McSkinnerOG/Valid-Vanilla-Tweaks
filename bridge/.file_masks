@@ -13,5 +13,11 @@
 	},
 	"BP/entities/husk.json": {
 		"data": {}
+	},
+	"BP/entities/cluck_shroom.json": {
+		"data": {}
+	},
+	"BP/entities/moo_bloom.json": {
+		"data": {}
 	}
 }

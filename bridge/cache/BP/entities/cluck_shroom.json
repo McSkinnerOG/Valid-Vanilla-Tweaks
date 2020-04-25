@@ -1,0 +1,2414 @@
+{
+	"file_path": "C:\\Users\\supfo\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SVT/entities/cluck_shroom.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "5ef65fb0_b098_49ad_abdb_7275ec491bd6",
+	"file_version": 0,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.16.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:entity",
+				"type": "object",
+				"meta": {
+					"expand_path_exceptions": [
+						"do_not_upgrade"
+					]
+				},
+				"children": [
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "vvt:cluck_shroom",
+								"key": "identifier",
+								"type": "string",
+								"meta": {
+									"definitions": [
+										"entity"
+									]
+								},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_spawnable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_summonable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "false",
+								"key": "is_experimental",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "component_groups",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "vvt:cluck_shroom_baby",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:is_baby",
+										"type": "object",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:scale",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.5",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:ageable",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "1200",
+												"key": "duration",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "feed_items",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "wheat_seeds",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "beetroot_seeds",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "melon_seeds",
+														"key": "2",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "pumpkin_seeds",
+														"key": "3",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "grow_up",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:ageable_grow_up",
+														"key": "event",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "self",
+														"key": "target",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:behavior.follow_parent",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "5",
+												"key": "priority",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1.1",
+												"key": "speed_multiplier",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "vvt:cluck_shroom_adult",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:experience_reward",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "Math.Random(1,7)",
+												"key": "on_bred",
+												"type": "string",
+												"meta": {
+													"is_value": true,
+													"is_molang": true
+												},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "query.last_hit_by_player ? Math.Random(1,3) : 0",
+												"key": "on_death",
+												"type": "string",
+												"meta": {
+													"is_value": true,
+													"is_molang": true
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:loot",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "loot_tables/entities/chicken.json",
+												"key": "table",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:breedable",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "false",
+												"key": "require_tame",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "breeds_with",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "vvt:cluck_shroom",
+														"key": "mate_type",
+														"type": "string",
+														"meta": {
+															"definitions": [
+																"entity"
+															]
+														},
+														"children": []
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "vvt:cluck_shroom",
+														"key": "baby_type",
+														"type": "string",
+														"meta": {
+															"definitions": [
+																"entity"
+															]
+														},
+														"children": []
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "breed_event",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:entity_born",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "baby",
+																"key": "target",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "breed_items",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "wheat_seeds",
+														"key": "0",
+														"type": "string",
+														"meta": {
+															"definitions": [
+																"item"
+															]
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "beetroot_seeds",
+														"key": "1",
+														"type": "string",
+														"meta": {
+															"definitions": [
+																"item"
+															]
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "melon_seeds",
+														"key": "2",
+														"type": "string",
+														"meta": {
+															"definitions": [
+																"item"
+															]
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "pumpkin_seeds",
+														"key": "3",
+														"type": "string",
+														"meta": {
+															"definitions": [
+																"item"
+															]
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:behavior.breed",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "3",
+												"key": "priority",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "speed_multiplier",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:rideable",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "seat_count",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "family_types",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "zombie",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "seats",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "position",
+														"type": "array",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "0",
+																"key": "0",
+																"type": "number",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "0.4",
+																"key": "1",
+																"type": "number",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "0",
+																"key": "2",
+																"type": "number",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:spawn_entity",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "entities",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "300",
+														"key": "min_wait_time",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "600",
+														"key": "max_wait_time",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "plop",
+														"key": "spawn_sound",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "egg",
+														"key": "spawn_item",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "rider_count",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "self",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "==",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "0",
+																"key": "value",
+																"type": "number",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "vvt:cluck_shroom_light",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:environment_sensor",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "triggers",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "is_brightness",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": true,
+																"comment": "",
+																"data": "<",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "0.49",
+																"key": "value",
+																"type": "number",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "minecraft:become_dark",
+														"key": "event",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "vvt:cluck_shroom_dark",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:environment_sensor",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "triggers",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "is_brightness",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": ">",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "0.49",
+																"key": "value",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:become_light",
+														"key": "event",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {
+							"expand_path_exceptions": [
+								"minecraft:burns_in_daylight",
+								"minecraft:can_climb",
+								"minecraft:can_power_jump",
+								"minecraft:hide",
+								"minecraft:home",
+								"minecraft:is_baby",
+								"minecraft:is_charged",
+								"minecraft:is_chested",
+								"minecraft:is_hidden_when_invisible",
+								"minecraft:is_ignited",
+								"minecraft:is_illager_captain",
+								"minecraft:is_saddled",
+								"minecraft:is_shaking",
+								"minecraft:is_sheared",
+								"minecraft:is_stackable",
+								"minecraft:is_stunned",
+								"minecraft:is_tamed",
+								"minecraft:item_hopper",
+								"minecraft:jump.dynamic",
+								"minecraft:managed_wandering_trader",
+								"minecraft:persistent",
+								"minecraft:scaffolding_climber",
+								"minecraft:trade_resupply",
+								"minecraft:trust",
+								"minecraft:wants_jockey",
+								"minecraft:annotation.open_door"
+							]
+						},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:type_family",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "family",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "chicken",
+												"key": "0",
+												"type": "string",
+												"meta": {
+													"is_value": true,
+													"definitions": [
+														"entity"
+													]
+												},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "mob",
+												"key": "1",
+												"type": "string",
+												"meta": {
+													"is_value": true,
+													"definitions": [
+														"entity"
+													]
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:breathable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "15",
+										"key": "total_supply",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "suffocate_time",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:collision_box",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.6",
+										"key": "width",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.8",
+										"key": "height",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:nameable",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:health",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "4",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "4",
+										"key": "max",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:hurt_on_condition",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "damage_conditions",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "in_lava",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "self",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "==",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "true",
+																"key": "value",
+																"type": "boolean",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "lava",
+														"key": "cause",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "4",
+														"key": "damage_per_tick",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:movement",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.25",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:damage_sensor",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "triggers",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "fall",
+												"key": "cause",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "false",
+												"key": "deals_damage",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:leashable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "4",
+										"key": "soft_distance",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "6",
+										"key": "hard_distance",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "10",
+										"key": "max_distance",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:balloonable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.5",
+										"key": "mass",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:navigation.walk",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "can_path_over_water",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "avoid_damage_blocks",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:movement.basic",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:jump.static",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:can_climb",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:despawn",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "filters",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "any_of",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "all_of",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "0",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "is_persistent",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "false",
+																				"key": "value",
+																				"type": "boolean",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "1",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "distance_to_nearest_player",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": ">",
+																				"key": "operator",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "54",
+																				"key": "value",
+																				"type": "number",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "1",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "all_of",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "0",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "is_persistent",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "false",
+																				"key": "value",
+																				"type": "boolean",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "1",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "inactivity_timer",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "self",
+																				"key": "subject",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "30",
+																				"key": "value",
+																				"type": "number",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "2",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "random_chance",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "800",
+																				"key": "value",
+																				"type": "number",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "3",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "distance_to_nearest_player",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": ">",
+																				"key": "operator",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "32",
+																				"key": "value",
+																				"type": "number",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.float",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.panic",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1.5",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.mount_pathing",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "2",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1.5",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "target_dist",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "track_target",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.tempt",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "4",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "items",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "wheat_seeds",
+												"key": "0",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"item"
+													]
+												},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "beetroot_seeds",
+												"key": "1",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"item"
+													]
+												},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "melon_seeds",
+												"key": "2",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"item"
+													]
+												},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "pumpkin_seeds",
+												"key": "3",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"item"
+													]
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.random_stroll",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "6",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.look_at_player",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "7",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "6",
+										"key": "look_distance",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.02",
+										"key": "probability",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.random_look_around",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "8",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:physics",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:pushable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "is_pushable",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "is_pushable_by_piston",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "events",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "from_egg",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "vvt:cluck_shroom_baby",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_spawned",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "randomize",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "95",
+														"key": "weight",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "remove",
+														"type": "object",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "add",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": true,
+																"comment": "",
+																"data": "",
+																"key": "component_groups",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": true,
+																		"comment": "",
+																		"data": "vvt:cluck_shroom_adult",
+																		"key": "0",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "vvt:cluck_shroom_light",
+																		"key": "1",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "1",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "5",
+														"key": "weight",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "remove",
+														"type": "object",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "add",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": true,
+																"comment": "",
+																"data": "",
+																"key": "component_groups",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": true,
+																		"comment": "",
+																		"data": "vvt:cluck_shroom_baby",
+																		"key": "0",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_born",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "vvt:cluck_shroom_baby",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:ageable_grow_up",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "vvt:cluck_shroom_baby",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "vvt:cluck_shroom_adult",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "vvt:cluck_shroom_light",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:become_light",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "vvt:cluck_shroom_dark",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "vvt:cluck_shroom_light",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:become_dark",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "vvt:cluck_shroom_light",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "vvt:cluck_shroom_dark",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

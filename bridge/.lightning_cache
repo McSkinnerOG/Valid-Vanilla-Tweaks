@@ -99,6 +99,44 @@
 				"monster",
 				"mob"
 			]
+		},
+		"BP/entities/cluck_shroom.json": {
+			"events": [
+				"from_egg",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:become_light",
+				"minecraft:become_dark"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"vvt:cluck_shroom"
+			],
+			"animation_references": [],
+			"families": [
+				"chicken",
+				"mob"
+			]
+		},
+		"BP/entities/moo_bloom.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:entity_transformed",
+				"minecraft:ageable_grow_up"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"vvt:moo_bloom"
+			],
+			"animation_references": [],
+			"families": [
+				"cow",
+				"mob"
+			]
 		}
 	}
 }
