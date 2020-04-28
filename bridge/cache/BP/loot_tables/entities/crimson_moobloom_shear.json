@@ -1,0 +1,219 @@
+{
+	"file_path": "C:\\Users\\supfo\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SVT\\loot_tables\\entities\\crimson_moobloom_shear.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "538d7c62_8c7b_41f0_8193_afbd1c978499",
+	"file_version": 5,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "pools",
+				"type": "array",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "0",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "1",
+								"key": "rolls",
+								"type": "number",
+								"meta": {
+									"is_value": true,
+									"validate": {
+										"confirm": "Bridge.Node.data === '' || Number.isNaN(Number(Bridge.Node.data))",
+										"then": {
+											"show": true,
+											"message": "Invalid data type: Expected number"
+										}
+									}
+								},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "entries",
+								"type": "array",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "0",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "item",
+												"key": "type",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "minecraft:crimson_fungus",
+												"key": "name",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"item"
+													]
+												},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "weight",
+												"type": "number",
+												"meta": {
+													"is_value": true,
+													"validate": {
+														"confirm": "Bridge.Node.data === '' || Number.isNaN(Number(Bridge.Node.data))",
+														"then": {
+															"show": true,
+															"message": "Invalid data type: Expected number"
+														}
+													}
+												},
+												"children": []
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "functions",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "set_data",
+																"key": "function",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": true,
+																"comment": "",
+																"data": "",
+																"key": "data",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "min",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "max",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "1",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "set_count",
+																"key": "function",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": true,
+																"comment": "",
+																"data": "",
+																"key": "count",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "1",
+																		"key": "min",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "1",
+																		"key": "max",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

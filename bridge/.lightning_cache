@@ -137,6 +137,42 @@
 				"cow",
 				"mob"
 			]
+		},
+		"BP/entities/warped_mooshroom.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:entity_transformed",
+				"minecraft:ageable_grow_up"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"vvt:warped_mooshroom"
+			],
+			"animation_references": [],
+			"families": [
+				"cow",
+				"mob"
+			]
+		},
+		"BP/entities/crimson_mooshroom.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:entity_transformed",
+				"minecraft:ageable_grow_up"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"vvt:crimson_mooshroom"
+			],
+			"animation_references": [],
+			"families": [
+				"cow",
+				"mob"
+			]
 		}
 	}
 }

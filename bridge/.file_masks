@@ -19,5 +19,68 @@
 	},
 	"BP/entities/moo_bloom.json": {
 		"data": {}
+	},
+	"BP/loot_tables/entities/blue_orchid_moobloom_shear.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/suncower_shear.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/allium_moobloom_shear.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/oxeye_daisy_moobloom_shear.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/poppy_moobloom_shear.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/cornflower_moobloom_shear.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/warped_moobloom_shear.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/crimson_moobloom_shear.json": {
+		"data": {}
+	},
+	"BP/entities/warped_mooshroom.json": {
+		"data": {}
+	},
+	"BP/entities/crimson_mooshroom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/moo_bloom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/allium_moobloom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/blue_orchid_moobloom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/cornflower_moobloom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/crimson_mooshroom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/warped_mooshroom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/wither_rose_moobloom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/oxeye_daisy_moobloom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/poppy_moobloom.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/suncower.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/bambmoo.json": {
+		"data": {}
 	}
 }
